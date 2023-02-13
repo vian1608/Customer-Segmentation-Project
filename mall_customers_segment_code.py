@@ -20,9 +20,9 @@ from sklearn.cluster import KMeans
 
 """## Reading and analysing the data"""
 
-!git clone https://github.com/vian1608/Customer-Segmentation-Project
+!git clone https://github.com/vian1608/Customer-Dataset
 
-df = pd.read_csv('Customer-Segmentation-Project/Mall_Customers.csv')
+df = pd.read_csv('Customer-Dataset/Mall_Customers.csv')
 
 df.head()
 
